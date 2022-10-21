@@ -1,14 +1,20 @@
 {
   "name": "adapt-courseProgressBar",
-  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NayanKhedkar/adapt-courseProgressBar.git"
+  },
   "framework": ">=5.18",
+  "version": "1.0.0",
   "homepage": "https://github.com/NayanKhedkar/adapt-courseProgressBar",
   "bugs": "https://github.com/NayanKhedkar/adapt-courseProgressBar/issues",
   "extension": "courseprogressbar",
   "displayName": "CourseProgressBar",
   "description": "An extension which show the overall progress of course.",
   "main": "/js/adapt-courseProgressBar.js",
-  "authors": ["Nayan Khedkar <https://github.com/NayanKhedkar>"],
+  "authors": [
+    "Nayan Khedkar <https://github.com/NayanKhedkar>"
+  ],
   "keywords": [
     "adapt-plugin",
     "adapt-extension"
