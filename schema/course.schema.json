@@ -1,0 +1,28 @@
+{
+  "$anchor": "course-progress",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "$patch": {
+    "source": {
+      "$ref": "course"
+    },
+    "with": {
+      "properties": {
+        "_courseProgressBar": {
+          "type": "object",
+          "title": "Course Progress Bar",
+          "default": {},
+          "required": [],
+          "properties": {
+            "_isEnabled": {
+              "type": "boolean",
+              "title": "Enable Course Progress",
+              "description": "Controls whether the course progress bar is enabled or disabled",
+              "default": true
+            }
+          }
+        }
+      }
+    }
+  }
+}
