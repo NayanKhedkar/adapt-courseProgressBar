@@ -5,9 +5,19 @@
 
 <img src="https://github.com/NayanKhedkar/gif_file/blob/main/course_progress.gif?raw=true" alt="course_progress.gif">
 
+## Installation
+This component can be installed using the by running the below command in framework root directory:
+
+    `adapt install adapt-courseProgressBar`
+
+This component can also be installed by adding the component to the adapt.json file before running `adapt install`:
+
+    `"adapt-courseProgressBar": "*"`
+    
+
 ## Settings overview
 
-**courseProgressBar**, and are properly formatted as JSON in [example.json](https://github.com/NayanKhedkar/adapt-courseProgressBar/blob/master/example.json) file.
+A complete example of this components settings can be found in the [example.json](https://github.com/NayanKhedkar/adapt-courseProgressBar/blob/master/example.json) file.
 
 
 ## Limitations
